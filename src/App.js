@@ -14,7 +14,7 @@ import {
   Linking,
 } from 'react-native';
 // import logo from './logo.png';
-const logo = require('./logo.png');
+const logo = require('./logo.png').default;
 
 const isNative = Platform.OS !== 'web';
 
